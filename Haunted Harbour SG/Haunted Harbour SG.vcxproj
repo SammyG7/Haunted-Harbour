@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0C206A2-DB6D-4856-A94C-93779954E9A0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HauntedHarbourSG</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgrondObject.h" />
+    <ClInclude Include="BlockObject.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="EnemyObject.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="FireBall.h" />
+    <ClInclude Include="GrenadeObject.h" />
+    <ClInclude Include="Counter.h" />
+    <ClInclude Include="soundclass.h" />
+    <ClInclude Include="Sounds.h" />
+    <ClInclude Include="Vec2.h" />
+    <ClInclude Include="HungrySailor.h" />
+    <ClInclude Include="Jellyfish.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="LighthouseKeeper.h" />
+    <ClInclude Include="SeaHag.h" />
+    <ClInclude Include="GraphicsObject.h" />
+    <ClInclude Include="GreenBullet.h" />
+    <ClInclude Include="GroundEnemy.h" />
+    <ClInclude Include="Haunted Harbour SG.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="HitObject.h" />
+    <ClInclude Include="PlayerObject.h" />
+    <ClInclude Include="PurpleBullet.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SpecialObject.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WeaponsObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackgrondObject.cpp" />
+    <ClCompile Include="BlockObject.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="FireBall.cpp" />
+    <ClCompile Include="GrenadeObject.cpp" />
+    <ClCompile Include="HungrySailor.cpp" />
+    <ClCompile Include="Jellyfish.cpp" />
+    <ClCompile Include="LighthouseKeeper.cpp" />
+    <ClCompile Include="SeaHag.cpp" />
+    <ClCompile Include="GraphicsObject.cpp" />
+    <ClCompile Include="GreenBullet.cpp" />
+    <ClCompile Include="GroundEnemy.cpp" />
+    <ClCompile Include="Haunted Harbour SG.cpp" />
+    <ClCompile Include="HealthBar.cpp" />
+    <ClCompile Include="HitObject.cpp" />
+    <ClCompile Include="PlayerObject.cpp" />
+    <ClCompile Include="PurpleBullet.cpp" />
+    <ClCompile Include="soundclass.cpp" />
+    <ClCompile Include="SpecialObject.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WeaponsObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Haunted Harbour SG.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Haunted Harbour SG.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
