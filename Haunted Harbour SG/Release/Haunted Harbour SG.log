@@ -1,0 +1,42 @@
+﻿  stdafx.cpp
+  BackgrondObject.cpp
+  BlockObject.cpp
+  Bullet.cpp
+  Explosion.cpp
+  FireBall.cpp
+  GrenadeObject.cpp
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\GrenadeObject.cpp(58,32): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\GrenadeObject.cpp(63,19): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\GrenadeObject.cpp(74,32): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  HungrySailor.cpp
+  Jellyfish.cpp
+  LighthouseKeeper.cpp
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\LighthouseKeeper.cpp(81,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\LighthouseKeeper.cpp(81,19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\LighthouseKeeper.cpp(86,10): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\LighthouseKeeper.cpp(88,10): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  SeaHag.cpp
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\SeaHag.cpp(37,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\SeaHag.cpp(38,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\SeaHag.cpp(39,16): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\SeaHag.cpp(111,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\SeaHag.cpp(112,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\SeaHag.cpp(113,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  GraphicsObject.cpp
+  GreenBullet.cpp
+  GroundEnemy.cpp
+  Haunted Harbour SG.cpp
+  HealthBar.cpp
+C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Haunted Harbour SG\HealthBar.cpp(24,84): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  HitObject.cpp
+  PlayerObject.cpp
+  PurpleBullet.cpp
+  soundclass.cpp
+  SpecialObject.cpp
+  Compiling...
+  WeaponsObject.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1203 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Haunted Harbour SG.vcxproj -> C:\Users\Sam\Desktop\Repos\Haunted-Harbour\Release\Haunted Harbour SG.exe
