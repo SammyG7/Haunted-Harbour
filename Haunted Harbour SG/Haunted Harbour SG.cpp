@@ -485,7 +485,8 @@ void loadMap(Level level)
 	std::unique_ptr<BlockObject> block;
 	std::unique_ptr<EnemyObject> enemy; 
 	std::unique_ptr<SpecialObject> special;
-	std::ifstream Level1 ("Levels/"+level.filename);
+	std::ifstream Level1 ("../Haunted Harbour SG/Levels/"+level.filename);
+	//std::ifstream Level1 ("Haunted Harbour SG/Levels/"+level.filename);
 	blockArray.clear();
 	enemyArray.clear();
 	specialArray.clear();
