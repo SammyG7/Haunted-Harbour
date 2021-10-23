@@ -1,2 +1,2 @@
 # Haunted-Harbour
-ReadMe Test
+Run the Haunted Harbour SG.exe file in the release folder. 
